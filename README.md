@@ -73,10 +73,28 @@ For production use, consider running the bot under a process manager such as `sy
 
 The exact commands depend on how you implement `bot.py`, but typical examples might include:
 
-- `!fob status` – Show current tracked FOBs.
-- `!fob watch <system>` – Start watching a system.
-- `!fob unwatch <system>` – Stop watching a system.
-- `!fob help` – List available commands.
+## 📝 User Commands
+
+- `/allowedsystems` – Show the list of allowed FOB systems  
+- `/contesthistory` – Show history of all contests  
+- `/enter` – Enter the contest with your system guess  
+- `/myguess` – Show your current entry  
+- `/pastwinners` – Show previous contest winners  
+- `/prizes` – Show prize information  
+- `/rules` – Show contest rules  
+- `/utcnow` – Show current UTC time and example timestamps  
+
+## ⚙️ Admin Commands
+
+- `/backupdb` – Back up the database  
+- `/cleardeadline` – Remove entry deadline  
+- `/conteststatus` – Show current contest status  
+- `/endcontest` – Close entries and pick winner  
+- `/listentries` – List all entries  
+- `/newcontest` – Start a new contest  
+- `/opencontest` – Re-open entries  
+- `/setdeadline` – Set entry deadline (CST → UTC)  
+- `/setprizes` – Set the ordered prize list (1–4 prizes)  
 
 Update this section to reflect the actual commands once they are finalized.
 
