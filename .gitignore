@@ -1,0 +1,17 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Databases and logs
+*.sqlite3
+contest*.db
+bot.log
+archive/
+
+# Virtual environments
+.venv/
+
+# Env / secrets
+.env
+.env-*
+*.env
